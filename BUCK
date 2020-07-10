@@ -1,4 +1,4 @@
-load('//:subdir_glob.bzl', 'subdir_glob' )
+load(':subdir_glob.bzl', 'subdir_glob' )
 
 cxx_library(
     name = 'store',
